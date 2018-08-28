@@ -1,0 +1,38 @@
+#maze {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mazeRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.borderWall {
+    height: 50px;
+    width: 50px;
+    background: black;
+}
+
+#start {
+    height: 50px;
+    width: 50px;
+}
+
+.blankSpace {
+    height: 50px;
+    width: 50px;
+}
+
+#dashie {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
